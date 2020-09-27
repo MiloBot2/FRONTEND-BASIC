@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang = "eng">
+
+<head>
+<title>Quiz Design</title>
+<link rel = "stylesheet" href="quizdesign.css">
+</head>
+
+<body>
+<h1>Welkom bij de quiz!</h1>
+<h4>Vraag 1</h4>
+<p>Met welk commando clone je een repository: git clone link</p>
+<br>
+
+<h4>Vraag 2</h4>
+<p>Kun je de extenties (.html, .docx, .pdf) lezen in Windows Explorer: Ja via een google bestand.</p>
+<br>
+
+<h4>Vraag 3</h4>
+<p>Kun je een wijziging committen in VS Code: Jazeker.</p>
+<br>
+
+<h4>Vraag 4</h4>
+<p>Codeer een plaatje (image) voor het goede antwoord</p>
+<img width = 100px height = 100px src = "https://static.wikia.nocookie.net/dogelore/images/9/97/Doge.jpg/revision/latest/top-crop/width/360/height/450?cb=20190205113053" > 
+<br>
+
+<h4>Vraag 5</h4>
+<p>Codeer een link naar youtube.com</p>
+<button onClick="JavaScript:hey2()">YT Home</button>
+
+<script>
+    function hey2()
+    {
+         var a = document.createElement('a');
+         var linkText = document.createTextNode("YT!");
+           a.appendChild(linkText);
+             a.title = "YT!";
+                a.href = "https://www.youtube.com/";
+                  document.body.appendChild(a);
+    }
+</script>
+<br>
+
+<h4>Vraag 6</h4>
+<p>Codeer een alert box</p>
+<button onClick="JavaScript:hey()">Click Me!</button>
+
+<script>
+    function hey()
+    {
+        alert("wie dit leest is gek!");
+    }
+</script>
+<br>
+
+<h4>Vraag 7</h4>
+<p>Stijl deze pagina met CSS zo mooi mogelijk</p>
+<br>
+</body>
+</html>
